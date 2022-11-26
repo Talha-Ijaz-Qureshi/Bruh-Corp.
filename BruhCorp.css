@@ -1,17 +1,28 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    background-color: #4c1130;
-}
-
-
+        
 #logo {
-    user-select: none;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 90px;
-    color: #a8cd23;
-    transform: translateX(36px); /* centered relative to text excluding the "." */
-}
-
+    padding: calc(30px + 1.6vw);
+      user-select: none;
+      width: fit-content;
+      height: fit-content;
+      font-family: "Press Start 2P", cursive;
+      font-size: calc(30px + 5vw);
+      color: #a8cd23;
+      box-shadow:  inset #310b1f 12px 12px 10px,  #310b1f 12px 12px 10px;
+      border-radius: 1%;
+      transition-duration: 250ms;
+      transition-duration: 190ms;
+      transform: scale(1.04);
+      text-shadow: black 1px 1px 2px, #a8cd23 2px 2px 2px, black 6px 6px 2px, #a8cd23 8px 8px 2px, black 10px 10px 2px,
+        #a8cd23 12px 12px 2px;
+        box-shadow: inset #2c0a1c 0 0 500px 500px, #310b1f 12px 12px 10px;
+    
+    }
+    
+    body {
+      background-color: #4c1130;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95vh;
+    }
+    
