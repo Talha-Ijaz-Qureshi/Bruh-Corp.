@@ -1,4 +1,4 @@
-        
+        /*
 #logo {
     padding: calc(30px + 1.6vw);
       user-select: none;
@@ -25,4 +25,43 @@
       align-items: center;
       height: 95vh;
     }
-    
+    */
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      background-color: #4c1140;
+  }
+  
+  
+  #logo {
+      user-select: none;
+      font-family: 'Press Start 2P', cursive;
+      font-size: calc(30px + 5vw);
+      /*color: #a8cd23; */
+      background-color: #a8cd23;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 
+      #4c1140 0px 0px 4px;  
+      animation: pulse 2s infinite;
+      transform: translateX(36px); /* centered relative to text excluding the "." */
+  }
+/*
+  @keyframes pulse {
+    0% {
+    }
+    50% {
+      text-shadow: 
+      #4c1140 0px 0px 5px;  
+    }
+    100% {
+
+    }
+  }
+
+  */
